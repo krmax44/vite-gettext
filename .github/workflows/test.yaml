@@ -17,6 +17,8 @@ jobs:
           version: 11
           runtime: node@24
           cache: true
+      - name: Install gettext
+        run: sudo apt update && sudo apt install gettext
       - name: Install dependencies
         run: pnpm install
       - name: Test
