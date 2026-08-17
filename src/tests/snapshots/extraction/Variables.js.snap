@@ -1,0 +1,7 @@
+[
+  {
+    "context": undefined,
+    "message": "Hello {{ message }}!",
+    "plural": undefined,
+  },
+]

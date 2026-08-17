@@ -1,0 +1,12 @@
+[
+  {
+    "context": "universe",
+    "message": "Hello World!",
+    "plural": undefined,
+  },
+  {
+    "context": "galaxies",
+    "message": "Hello World!",
+    "plural": "Hello Worlds!",
+  },
+]

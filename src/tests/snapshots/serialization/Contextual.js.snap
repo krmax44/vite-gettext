@@ -1,0 +1,4 @@
+
+pgettext(`universe`, `Hello World!`)
+
+npgettext(`galaxies`, `Hello World!`, `Hello Worlds!`, 1)

@@ -1,0 +1,47 @@
+{
+  "name": "vite-gettext",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsdown --dts src/index.ts src/cli.ts",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./cli": "./dist/cli.mjs"
+  },
+  "bin": {
+    "vite-gettext": "./dist/cli.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-core": "^3.5.41",
+    "estree-walker": "^3.0.3",
+    "zimmerframe": "^1.1.4",
+    "zod": "^4.4.3",
+    "zodline": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/estree": "^1.0.9",
+    "@types/node": "^26.2.0",
+    "@vitest/coverage-v8": "4.1.10",
+    "acorn": "^8.18.0",
+    "prettier": "^3.9.6",
+    "tsdown": "^0.22.14",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10",
+    "vue": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vite": ">7",
+    "vue": "^3.5.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

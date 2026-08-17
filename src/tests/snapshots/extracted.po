@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/tests/fixtures/Basic.vue:4 src/tests/fixtures/BasicOptions.vue:4
+msgid "Hello World from the script block!"
+msgstr ""
+
+#: src/tests/fixtures/Basic.vue:9 src/tests/fixtures/BasicOptions.vue:9
+msgid "Hello World!"
+msgstr ""
+
+#: src/tests/fixtures/Basic.vue:10 src/tests/fixtures/BasicOptions.vue:10
+msgid "Hello World! This is a test!"
+msgstr ""
+
+#: src/tests/fixtures/Contextual.vue:2
+msgctxt "universe"
+msgid "Hello World!"
+msgstr ""
+
+#: src/tests/fixtures/Plurals.vue:2 src/tests/fixtures/Plurals.vue:16
+msgid "Hello World"
+msgid_plural "Hello Worlds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tests/fixtures/Plurals.vue:8
+msgid ""
+"Hello\n"
+"\n"
+"    \n"
+"\n"
+"    World!"
+msgid_plural "Hello Worlds!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tests/fixtures/Variables.vue:8
+msgid "Hello {{ message }}!"
+msgstr ""
+
+#: src/tests/fixtures/basic.js:3
+msgid "Hello World from a JS file!"
+msgstr ""
+
+#: src/tests/fixtures/basic.js:4
+msgid "JavaScript"
+msgid_plural "JavaScripts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tests/fixtures/basic.js:5
+msgctxt "js context"
+msgid "Hello World!"
+msgstr ""

@@ -1,0 +1,21 @@
+[
+  {
+    "context": undefined,
+    "message": "Hello World!",
+    "plural": "Hello Worlds!",
+  },
+  {
+    "context": undefined,
+    "message": "Hello
+
+    
+
+    World!",
+    "plural": "Hello Worlds!",
+  },
+  {
+    "context": undefined,
+    "message": "Hello World!",
+    "plural": "Hello Worlds!",
+  },
+]

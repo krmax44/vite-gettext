@@ -1,0 +1,12 @@
+[
+  {
+    "context": undefined,
+    "message": "Hello World!",
+    "plural": undefined,
+  },
+  {
+    "context": undefined,
+    "message": "Hello World! This is a test!",
+    "plural": undefined,
+  },
+]
