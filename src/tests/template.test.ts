@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { extract, serialize } from '../template';
+import { extract } from '../template';
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import { parse } from 'vue/compiler-sfc';
@@ -15,13 +15,13 @@ test('template', async () => {
 
     const { translations } = extract(parsed);
 
-    expect(translations.map((t) => t.toJSON())).toMatchFileSnapshot(
+    await expect(translations.map((t) => t.toJSON())).toMatchFileSnapshot(
       path.join('snapshots', 'extraction', name + '.js.snap'),
     );
 
     const serializer = new SFCSerializer(parsed, translations);
 
-    expect(serializer.serialize()).toMatchFileSnapshot(
+    await expect(serializer.serialize()).toMatchFileSnapshot(
       path.join('snapshots', 'serialization', name + '.js.snap'),
     );
   }
